@@ -1,6 +1,6 @@
 #include <Windows.h>
 
-int stage;
+int stage = 0;
 int r = 0, g = 0, b = 0;
 COLORREF Hue(int shift) {
     switch (stage) {
